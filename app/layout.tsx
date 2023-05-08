@@ -1,6 +1,6 @@
 import "./globals.css";
 
-import Sidebar from "./component/sidebar"
+import Sidebar from "./component/sidebark"
 import { personalData } from "../data/page-data"
 
 export default function RootLayout({
