@@ -1,7 +1,7 @@
 import "./globals.css";
 
-import Sidebar from "./component/sidebar";
-import { personalData } from "../data/page-data";``
+import Sidebar from "./component/sidebar"
+import { personalData } from "../data/page-data"
 
 export default function RootLayout({
 	children,
