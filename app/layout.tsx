@@ -1,7 +1,9 @@
 import "./globals.css";
+import Head from 'next/head'
 
 import Sidebar from "./component/sidebar"
 import { personalData } from "../data/page-data"
+import next from "next/types";
 
 export default function RootLayout({
 	children,
@@ -10,7 +12,12 @@ export default function RootLayout({
 }) {
 	return (
 		<html>
-			<head />
+			<head>
+				<Head>
+					<title>My Portfolio</title>
+					<meta name='description' content='My Portfolio' />
+				</Head>
+			</head>
 
 			<body className='flex flex-col sm:flex-row'>
 				<Sidebar data={personalData} />
