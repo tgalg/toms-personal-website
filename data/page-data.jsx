@@ -7,10 +7,13 @@ export const personalData = {
 	],
 	contactLinks: [
 		"mailto:thomasxgallagher@gmail.com",
-		"https://github.com/tgalg",
+		'https://twitter.com/tgalg',
 		"https://linkedin.com/in/tom-gallagher-248b58116/",
+		"https://github.com/tgalg",
 	],
 };
+
+
 
 export const aboutMe = {
 	title: "About Me",
