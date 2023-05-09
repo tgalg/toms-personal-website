@@ -3,6 +3,11 @@ import './globals.css'
 import Sidebar from './component/sidebar'
 import { personalData } from '../data/page-data'
 
+export const metadata = {
+  title: 'Tom Gallagher',
+  description: 'Full Stack Software Engineer',
+}
+
 export default function RootLayout({
   children,
 }: {
