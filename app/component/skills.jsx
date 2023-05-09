@@ -2,15 +2,15 @@
 import React, { useState } from "react";
 
 const Skills = ({ data }) => {
-	const [activeTab, setActiveTab] = useState("soft");
+	const [activeTab, setActiveTab] = useState("hard");
 
 	const setBg = (active) => (activeTab === active ? "bg-yellow" : "bg-grey");
 	const setTabsAlignment = (tab) =>
-		tab === "soft" ? "text-left" : "text-right";
+		tab === "soft" ? "text-right" : "text-left";
 
 	const tabs = (
 		<div className='flex'>
-			{["soft", "hard"].map((el) => (
+			{["hard", "soft"].map((el) => (
 				<button
 					key={el}
 					type='button'
@@ -25,7 +25,7 @@ const Skills = ({ data }) => {
 	const content = (
 		<ul
 			className={`flex flex-row flex-wrap content-start list-none py-4 gap-2 ${
-				activeTab === "soft" ? "justify-start" : "justify-end"
+				activeTab === "soft" ? "justify-end" : "justify-start"
 			}`}
 		>
 			{data[activeTab].map(({ icon, text }) => (
