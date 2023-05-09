@@ -3,7 +3,7 @@ export const personalData = {
   role: 'Software Engineer',
   education: [
     'Web Developer Bootcamp, Udemy (2018)',
-    "Bachelor's degree in Computer Science, University of Kansas (2017)",
+    "Bachelor's Degree in Computer Science, University of Kansas (2017)",
   ],
   contactLinks: [
     'mailto:thomasxgallagher@gmail.com',
