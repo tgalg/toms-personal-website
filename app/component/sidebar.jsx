@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-import { Envelope, Twitter, Linkedin, Medium } from "./icons";
+import { Envelope, Twitter, Linkedin } from "./icons";
 
 const Sidebar = ({ data }) => {
 	const { name, role, education, contactLinks } = data;
@@ -35,7 +35,7 @@ const Sidebar = ({ data }) => {
 						<a
 							className='icons-contactme'
 							href={contactLinks?.[1]}
-							aria-label={"twitter link"}
+							aria-label={"github link"}
 						>
 							<Twitter />
 						</a>
@@ -45,13 +45,6 @@ const Sidebar = ({ data }) => {
 							aria-label={"linkedin link"}
 						>
 							<Linkedin />
-						</a>
-						<a
-							className='icons-contactme'
-							href={contactLinks?.[3]}
-							aria-label={"medium link"}
-						>
-							<Medium />
 						</a>
 					</div>
 				</div>
