@@ -21,6 +21,13 @@ const Sidebar = ({ data }) => {
         <h1 className="mb-2 text-center">{name}</h1>
         <h2 className="mb-8 text-center">{role}</h2>
         <div className="text-white text-center mb-4 mt-4 sm:mt-8">
+          <a
+            href="https://tom-gallagher-3oslrele9-tgalg.vercel.app/"
+            target="_blank"
+            className="mb-2"
+          >
+            NEW WEBSITE UNDER CONSTRUCTION (Click Here to view WIP)
+          </a>
           <h3 className="mb-2"> CONTACT ME</h3>
           <div className="flex flex-row justify-center gap-2">
             <a
