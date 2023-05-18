@@ -22,7 +22,7 @@ const Sidebar = ({ data }) => {
         <h2 className="mb-8 text-center">{role}</h2>
         <div className="text-white text-center mb-4 mt-4 sm:mt-8">
           <a
-            href="https://tom-gallagher-3oslrele9-tgalg.vercel.app/"
+            href="https://tom-gallagher-m597f58vr-tgalg.vercel.app/"
             target="_blank"
             className="mb-2"
           >
